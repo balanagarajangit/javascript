@@ -1,0 +1,19 @@
+#cal{
+    background: #000;
+    color: aliceblue;
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px;
+}
+input{
+    width: 100%;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}

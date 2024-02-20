@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-weight: bold;
+}
+
+#container{
+    border: 4px solid black;
+    gap: 30px;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#watch{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+button{
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    font-size: xx-large;
+    margin: 2px 3px;
+}
+#startbtn{
+    background: green;
+
+}
+#startbtn:hover{
+    background: rgb(19, 202, 19);
+}
+#stopbtn{
+    background: red;
+}
+#stopbtn:hover{
+    background: rgb(219, 44, 44);
+}
+#resetbtn{
+    background: blue;
+}
+#resetbtn:hover{
+    background: rgb(48, 48, 231);
+}

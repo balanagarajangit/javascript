@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#counterlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-weight: bolder;
+    color: chocolate;
+}
+.inner{
+    display: block;
+    text-align: center;
+}
+button{
+    color: black;
+    font-size: 1.5em;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:background-color 0.25s;
+}
+button:hover{
+    background-color: chocolate;
+}
+h1{
+    text-align: center;
+    font-size: 10em;
+}
